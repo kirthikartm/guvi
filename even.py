@@ -1,5 +1,7 @@
 q=int(input(""))
 if(q%2==0):
   print("Even")
-else:
+elif(q%2!=0):
   print("Odd")
+else:
+  print("invalid")
