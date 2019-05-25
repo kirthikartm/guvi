@@ -1,3 +1,5 @@
 a=int(input(""))
-for i in range(0,a):
-    print(i)
+s=0
+for i in range(1,a+1):
+    s=s+i
+print(s)
