@@ -1,7 +1,7 @@
 a,b=map(int,input("").split())
 for i in range(a,b):
     s=0
-    l=len(str(i))
+    l=len(i)
     t=i
     while(t>0):
         x=t%10
