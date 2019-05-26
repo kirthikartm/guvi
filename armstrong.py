@@ -8,4 +8,4 @@ for i in range(a,b):
         s=s+(x**l)
         t=t//10
     if(s==i):
-        print(i)
+        print(i,end=" ")
