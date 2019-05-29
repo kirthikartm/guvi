@@ -1,6 +1,6 @@
-a=int(input(""))
+t=int(input(""))
 fac=1
-while(a!=0):
-    fac=fac*a
-    a+=-1
+while(t!=0):
+    fac=fac*t
+    t+=-1
 print(fac)
