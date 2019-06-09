@@ -1,4 +1,6 @@
-a,b=input().split()
-b=int(b)
-print(a[b::])
-
+c,a=map(int,input().split())
+b=len(str(c))
+x=list(combinations(str(c),b-a))
+x=(sorted(x))
+z="".join(x[0])
+print(z)
