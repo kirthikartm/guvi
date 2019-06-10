@@ -1,6 +1,6 @@
-a=input()
-c=0
-for i in a:
+l=input()
+count=0
+for i in l:
     if(i.isdigit()):
-        c+=1
-print(c)
+        count+=1
+print(count)
