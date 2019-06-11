@@ -7,7 +7,6 @@ for i in range(a):
     if 0 in l:
         m=l.index(0)
         l1.append(m)
-print(l1)
 for i in range(len(x)):
     if 0 in x[i]:
         for j in range(b):
