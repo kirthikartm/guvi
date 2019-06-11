@@ -1,3 +1,3 @@
-a,b=input().split()
-b=int(b)
-print(a[0:b])
+x,z=input().split()
+z=int(z)
+print(x[0:z])
