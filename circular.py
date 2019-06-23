@@ -1,5 +1,5 @@
-a=input()
-if a.find("GLGLGL")!=-1 or a.find("GRGRGR")!=-1 or a.find("GLLG")!=-1 or a.find("GRRG")!=-1:
+va=input()
+if va.find("GLGLGL")!=-1 or va.find("GRGRGR")!=-1 or va.find("GLLG")!=-1 or va.find("GRRG")!=-1:
     print("yes")
 else:
     print("no")
